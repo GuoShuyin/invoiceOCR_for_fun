@@ -1,4 +1,4 @@
-# invoiceOCRv1.0
+# invoiceOCR_for_fun
 
 一个对中国增值税发票的信息提取软件通过划定识别区域调用CloudEnv API进行文字提取实现
 
