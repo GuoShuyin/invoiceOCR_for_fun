@@ -1,5 +1,20 @@
 # invoiceOCRv1.0
-Usage:
-1.put invoice images/pdfs in this project's root directory
-2.register an cloudenv account and put your cloudenv api for the image_to_text plugin into file.env
-3.run main.py
+
+一个对中国增值税发票的信息提取软件通过划定识别区域调用CloudEnv API进行文字提取实现
+
+二次开发：
+可以增加更多划定区域和提取信息的类别
+
+短板：
+1.必须是扫描件的图片输入，图片大小需比较统一
+2.软件运行时必须联网
+
+优点：
+1.简单易用，识别准确率高
+
+用法：
+1. 将发票图片或 PDF 文件放置在该项目的根目录中
+2. 注册一个 CloudEnv 账户，并将 CloudEnv API 密钥放入文件 .env 中
+3. 运行 main.py
+
+
